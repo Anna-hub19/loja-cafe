@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    overflow-x: hidden;
+    max-width: 100vh;
+}
+.cabecalho{
+    background-color: #594126;
+    width: 100vw;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+}
+.link-cabecalho{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    margin:20px;
+}
+.div-link{
+    align-items: center;
+}
+.link-cabecalho:hover{
+    color: darkgrey;
+}
+.div-imagens{
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    gap: 170px;
+}
+
+.imagens{
+    width: 200px;
+}
+.rodape{
+    background-color: #594126;
+    width: 100vw;
+    height: 86px;
+    text-align: center;
+    padding: 20px;
+    gap: 8px;
+}
+
+.contato{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding: 20px 0 20px 700px;
+}
+
+.link-contato{
+    color: black;
+    text-decoration: none;
+    background-color: #946129;
+    border-radius: 10px;
+    width: 400px;
+    height: 70px;
+    display: flex;
+    gap: 50px;
+    text-align: center;
+    font-size: 30px;
+}
